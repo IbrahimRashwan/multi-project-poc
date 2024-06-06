@@ -1,0 +1,144 @@
+html[dir="ltr"] {
+  .layout-main {
+    background-image: url("/assets/layout/images/content-bg.svg") !important;
+    background-position: top right !important;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+  }
+  .sub-tit {
+    line-height: 21px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .card .section-title {
+    // font-size: 17px;
+  }
+  .rotatedY {
+    transform: rotateY(0deg) !important;
+  }
+  .rotatedX {
+    transform: rotateY(180deg);
+  }
+  .text-2xl {
+    font-size: 1.25rem !important;
+  }
+  .text-3xl {
+    font-size: 1.35rem !important;
+  }
+  // login accordion arrow
+  .log-card .accordion-button.collapsed::after,
+  .log-card .accordion-button::after {
+    transform: rotate(-90deg);
+  }
+  // typography in english fonts
+  .control-labels-radio {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .control-labels {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .login-btn,
+  .btn-primary,
+  .login-btn-outline,
+  .btn-outline {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .header,
+  .page-name-header {
+    font-size: 32px !important;
+    font-weight: 400 !important;
+    display: flex;
+    align-items: center;
+    line-height: 48px;
+    font-family: Displace;
+  }
+
+  .sub-header {
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    color: #7d7d7d;
+  }
+  .card-header {
+    padding-inline: 0;
+
+    .title {
+      // font-size: 18px !important;
+    }
+  }
+  .card .des-text {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .det-info .det-label {
+    // font-size: 13px !important;
+    // font-weight: 300 !important;
+  }
+
+  .form-group .form-label {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  .log-card .log-type .sub-tit {
+    font-size: 16px !important;
+  }
+  .tit {
+    font-size: 16px !important;
+  }
+  form .log-form-label,
+  label {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    margin-bottom: 4px;
+  }
+  .p-overlay {
+    right: 0;
+    min-width: 85px !important;
+  }
+  .link-primary {
+    font-size: 14px;
+  }
+
+  .side-tabs li a {
+    font-size: 16px !important;
+  }
+  .me-auto {
+    margin-right: unset !important;
+    margin-left: auto !important;
+  }
+  .side-modal {
+    .p-dialog .p-dialog-header {
+      border-top-left-radius: 60px;
+      border-top-right-radius: 0px;
+    }
+    .p-dialog .p-dialog-content {
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+
+  .main {
+    .content {
+      background-image: url("/assets/layout/images/content-bg.svg") !important;
+      background-position-x: right !important;
+    }
+  }
+
+  .card-terms-desc li {
+    text-decoration: none;
+  }
+  // confirm request page
+  .main-bg {
+    background-position: top right;
+  }
+}

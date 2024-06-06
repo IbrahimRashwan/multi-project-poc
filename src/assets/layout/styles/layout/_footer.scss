@@ -1,0 +1,19 @@
+.layout-footer {
+    transition: margin-left ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-block: 0.8rem;
+    padding-inline-end: 2rem;
+    ul{
+        display: flex;
+        gap: 3rem;
+        margin: 0;
+        font-size: 13px;
+        li{
+            cursor: pointer;
+            font-weight: 400;
+        }
+    }
+ 
+}

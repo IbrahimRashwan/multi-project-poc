@@ -1,0 +1,140 @@
+:root,
+body,
+*:not(.pi) {
+  font-family: "29LTZaridSans", "gotham";
+  font-weight: 400;
+  font-variation-settings: normal;
+}
+
+body.ar-font-2,
+body.ar-font-2 *:not(.pi) {
+  font-family: "Tajawal";
+  font-variation-settings: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5rem 0 1rem 0;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--surface-900);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+.w-33 {
+  max-width: 33% !important;
+  width: 33% !important;
+}
+
+mark {
+  background: #fff8e1;
+  padding: 0.25rem 0.4rem;
+  border-radius: $borderRadius;
+  font-family: monospace;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0 2rem;
+  border-left: 4px solid #90a4ae;
+}
+.matt-hint {
+  line-height: 1.2em;
+  transform: translateY(6px);
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5411764706);
+}
+hr {
+  border-top: solid var(--surface-border);
+  border-width: 1px 0 0 0;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pt-6rem {
+  padding-top: 6.3rem;
+}
+
+.header ,.page-name-header{
+  color: #23282d;
+  font-size: 34px !important;
+  font-weight: 500 !important;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  line-height: 50px;
+  font-family: "29LTZaridSerif";
+  .badge , .p-tag{
+    margin-inline-start: 16px;
+    vertical-align: text-bottom;
+  }
+}
+
+.sub-header {
+  color: black;
+  font-size: 18px !important;
+  // font-weight: 500;
+  word-wrap: break-word;
+}
+.hint {
+  color: #8b8f92;
+  font-size: 13px;
+}
+label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #23282d;
+  font-weight: 400 !important;
+}
+.formgrid {
+  margin: 0 !important;
+  gap: 5rem !important;
+  margin-left: 0;
+  font-family: 800;
+}
+.dark-text {
+  color: #23282d;
+}
+
+.text-underline {
+  border-bottom: 1px solid #b49164;
+}

@@ -1,0 +1,50 @@
+// content in minized menu case
+.layout-wrapper {
+  min-height: 100vh;
+}
+
+.layout-main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  &.minize {
+    margin-inline-start: 120px;
+    transition: all 0.1s;
+  }
+}
+
+.layout-main {
+  flex: 1 1 auto;
+}
+
+//   topbar
+.bars-container {
+  font-size: 16px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  border-color: #eaeaea87;
+  padding: 13px 24px;
+
+  .nav-link,
+  .nav-link:focus,
+  .nav-link:hover {
+    font-size: 18px;
+  }
+}
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  &:first-of-type {
+    font-size: 14px;
+    font-weight: 400 !important;
+  }
+}
+
+app-support-header {
+  display: none !important;
+}

@@ -1,0 +1,188 @@
+// Arabic: 29LTZaridSans
+@font-face {
+  font-family: "29LTZaridSans";
+  src: url("/assets/fonts/29LT-Zarid-Sans/29LTZaridSans-Light.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: "29LTZaridSans";
+  src: url("/assets/fonts/29LT-Zarid-Sans/29LTZaridSans-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: "29LTZaridSans";
+  src: url("/assets/fonts/29LT-Zarid-Sans/29LTZaridSans-Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: "29LTZaridSans";
+  src: url("/assets/fonts/29LT-Zarid-Sans/29LTZaridSans-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+// Arabic: in titles 29LTZaridSerif
+@font-face {
+  font-family: "29LTZaridSerif";
+  src: url("/assets/fonts/29L-Zarid-Serif/29LTZaridSerif-Lt.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: "29LTZaridSerif";
+  src: url("/assets/fonts/29L-Zarid-Serif/29LTZaridSerif-Rg.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: "29LTZaridSerif";
+  src: url("/assets/fonts/29L-Zarid-Serif/29LTZaridSerif-Md.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: "29LTZaridSerif";
+  src: url("/assets/fonts/29L-Zarid-Serif/29LTZaridSerif-Bd.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  // arbic unicode range characters
+  unicode-range: U+0600-06FF;
+}
+
+// English: Gotham
+@font-face {
+  font-family: "gotham";
+  src: url("/assets/fonts/Gotham-Font/Gotham-Thin.otf");
+  font-weight: 100;
+  font-style: normal;
+  // english unicode range characters and numbers
+  unicode-range: U+2160-2188, U+0000-007F;
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url("/assets/fonts/Gotham-Font/Gotham-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+  // english unicode range characters and numbers
+  unicode-range: U+2160-2188, U+0000-007F;
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url("/assets/fonts/Gotham-Font/GothamBook.ttf");
+  font-weight: 400;
+  font-style: normal;
+  // english unicode range characters and numbers
+  unicode-range: U+2160-2188, U+0000-007F;
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url("/assets/fonts/Gotham-Font/GothamMedium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  // english unicode range characters and numbers
+  unicode-range: U+2160-2188, U+0000-007F;
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url("/assets/fonts/Gotham-Font/Gotham-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+  // english unicode range characters and numbers
+  unicode-range: U+2160-2188, U+0000-007F;
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url("/assets/fonts/Gotham-Font/Gotham-Black.otf");
+  font-weight: 900;
+  font-style: normal;
+  // english unicode range characters and numbers
+  unicode-range: U+2160-2188, U+0000-007F;
+}
+
+// Displace
+@font-face {
+  font-family: "Displace";
+  src: url("/assets/fonts/Displace2.0/Displace2.0-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Displace";
+  src: url("/assets/fonts/Displace2.0/Displace2.0-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Tajawal Arabic Font Family
+//@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@font-face {
+  font-family: "Tajawal";
+  src: url("/assets/fonts/Tajawal/Tajawal-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("/assets/fonts/Tajawal/Tajawal-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("/assets/fonts/Tajawal/Tajawal-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("/assets/fonts/Tajawal/Tajawal-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("/assets/fonts/Tajawal/Tajawal-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}

@@ -1,0 +1,61 @@
+// badges
+
+.badge,
+.p-tag.p-tag {
+  padding: 4px 12px;
+  max-width: fit-content;
+  border-radius: 20px;
+  font-size: 14px !important;
+  margin-top: 0.25rem;
+  line-height: 16.5px;
+
+  .p-tag-value {
+    font-weight: 400 !important;
+  }
+  &-primary {
+    color: #643b03 !important;
+    background-color: #fae5c9;
+    border: 1.3px solid #f4d9b5;
+  }
+
+  &-danger {
+    color: #873030 !important;
+    background-color: #f8d9d9;
+    border: 1.3px solid #ec9999;
+  }
+
+  &-info {
+    color: #3e6a92 !important;
+    background-color: #e0eefc;
+    border: 1.3px solid #a6cff6;
+  }
+
+  &-warning {
+    color: #6e583d !important;
+    background-color: #fcf2e2;
+    border: 1.3px solid #f6d9a6;
+  }
+
+  &-waiting {
+    color: #7239ea !important;
+    background-color: #f3eeff;
+    border: 1.3px solid lighten($color: #7239ea, $amount: 30%);
+  }
+  &-canceled {
+    color: #323232;
+    background-color: #f0f0f0;
+    border: 1.3px solid #e8e8e8;
+  }
+
+  &-success {
+    color: #2a7e69;
+    background-color: #ceece5;
+    border: 1.3px solid #8ed4c2;
+  }
+}
+
+.bg-gold-light {
+  background: #f6f2ee;
+  border-radius: 8px;
+  padding: 20px 0;
+}

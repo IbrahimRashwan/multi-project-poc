@@ -1,0 +1,57 @@
+
+
+.p-dialog .p-dialog-header{
+  padding: 24px;
+  color: #23282D;
+  border-bottom: 1px solid #F0F0F1;
+  .p-dialog-title {
+      font-size: 24px;
+      color: #23282D;
+      font-weight: 500;
+      line-height: 36px;
+      font-style: normal;
+    }
+
+} 
+.p-dialog-header-icons svg path{
+  fill :#23282D;
+}
+  .p-dialog .p-dialog-content{
+    padding: 24px;
+}
+.p-dialog .p-dialog-footer {
+  padding: 24px;
+  border-top: 1px solid #F0F0F1;
+  button.btn{
+    height: 40px;
+    font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+  }
+}
+
+  .side-modal {
+    .p-dialog {
+      border-radius: 0px 60px 60px 0px;
+    }
+    .p-dialog-mask {
+      bottom: 0;
+      display: flex;
+      justify-content: end;
+      align-items: self-start;
+    }
+    .p-dialog {
+      max-height: 100%;
+    }
+    .p-dialog .p-dialog-header {
+      padding: 0.5rem 1.5rem;
+      border-top-right-radius: 60px;
+      border-top-left-radius: 0px;
+    }
+    .p-dialog .p-dialog-content {
+      padding: 0 64px 2rem 64px;
+      border-bottom-right-radius: 60px;
+      border-bottom-left-radius: 0px;
+    }
+  }

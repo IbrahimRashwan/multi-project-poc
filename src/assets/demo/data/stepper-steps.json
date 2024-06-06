@@ -1,0 +1,26 @@
+{
+      "status": "0",
+      "stepsValue": [
+        {
+          "stepValueEn": "Submit Request",
+          "stepOrder": 0
+        },
+        {
+          "stepValueEn": "Moc Verification",
+          "stepOrder": 1
+
+        },
+        {
+          "stepValueEn": "Moh Approval",
+          "stepOrder": 2,
+          "isCurrentState": true,
+          "stepState": "Waiting"
+
+        },
+        {
+          "stepValueEn": "Make Payment",
+          "stepOrder": 3
+
+        }
+      ]
+}

@@ -1,0 +1,148 @@
+{
+  "Modules": [
+    {
+      "name": "Companies",
+      "value": "34",
+      "features": [
+        {
+          "name": "Qualification",
+          "value": "39",
+          "services": [
+            {
+              "name": "add",
+              "value": 233
+            },
+            {
+              "name": "view",
+              "value": 235
+            },
+            {
+              "name": "edit",
+              "value": 236
+            },
+            {
+              "name": "add",
+              "value": 233
+            },
+            {
+              "name": "view",
+              "value": 235
+            },
+            {
+              "name": "edit",
+              "value": 236
+            },
+            {
+              "name": "add",
+              "value": 233
+            },
+            {
+              "name": "view",
+              "value": 235
+            },
+            {
+              "name": "edit",
+              "value": 236
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Requests",
+      "value": "35",
+      "features": [
+        {
+          "name": "Request Qualification",
+          "value": "40",
+          "services": [
+            {
+              "name": "view",
+              "value": 234
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contracts",
+      "value": "36",
+      "features": [
+        {
+          "name": "Contracts Qualification",
+          "value": "41",
+          "services": [
+            {
+              "name": "approve",
+              "value": 211
+            },
+            {
+              "name": "Reject",
+              "value": 219
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Companies",
+      "value": "34",
+      "features": [
+        {
+          "name": "Qualification",
+          "value": "39",
+          "services": [
+            {
+              "name": "add",
+              "value": 233
+            },
+            {
+              "name": "view",
+              "value": 235
+            },
+            {
+              "name": "edit",
+              "value": 236
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contracts",
+      "value": "36",
+      "features": [
+        {
+          "name": "Contracts Qualification",
+          "value": "41",
+          "services": [
+            {
+              "name": "approve",
+              "value": 211
+            },
+            {
+              "name": "Reject",
+              "value": 219
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Requests",
+      "value": "35",
+      "features": [
+        {
+          "name": "Request Qualification",
+          "value": "40",
+          "services": [
+            {
+              "name": "view",
+              "value": 234
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

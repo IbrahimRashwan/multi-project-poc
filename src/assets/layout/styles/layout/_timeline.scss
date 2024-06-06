@@ -1,0 +1,51 @@
+// ltr
+[dir="ltr"] {
+  .timeline__item:not(:last-child):before {
+    left: 17px;
+    right: auto;
+  }
+
+  .timeline__dot {
+    margin-top: 4px;
+  }
+
+  .timeline__action,
+  .timeline__name {
+    font-size: 15px;
+  }
+
+  .reason__header {
+    font-size: 13px;
+  }
+
+  .reason__content,
+  .no-results-message {
+    font-size: 15px;
+  }
+}
+
+// rtl
+[dir="rtl"] {
+  .timeline__item:not(:last-child):before {
+    right: 17px;
+    left: auto;
+  }
+
+  .timeline__dot {
+    margin-top: 8px;
+  }
+
+  .timeline__action,
+  .timeline__name {
+    font-size: 18px;
+  }
+
+  .reason__header {
+    font-size: 16px;
+  }
+
+  .reason__content,
+  .no-results-message {
+    font-size: 18px;
+  }
+}

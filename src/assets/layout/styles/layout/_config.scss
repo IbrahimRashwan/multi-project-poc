@@ -1,0 +1,138 @@
+.layout-config-button {
+    display: block;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    background: var(--primary-color);
+    color: var(--primary-color-text);
+    text-align: center;
+    top: 50%;
+    right: 0;
+    margin-top: -1.5rem;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: background-color var(--transition-duration);
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: -.25rem 0 1rem rgba(0,0,0,.15);
+
+    i {
+        font-size: 2rem;
+        line-height: inherit;
+        transform: rotate(0deg);
+        transition: transform 1s;
+    }
+
+    &:hover {
+        background: var(--primary-400);
+    }
+}
+
+.layout-config-sidebar {
+    &.p-sidebar {
+        .p-sidebar-content {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+}
+
+
+
+
+
+body{
+    height: 100vh;
+    background-color: #fff;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.otp-input {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 4px;
+    border: solid 1px #F0F0F1 !important;
+    text-align: center;
+    font-size: 32px !important;
+    margin-inline-end: 8px;
+    color: #484D51;
+  }
+  input:focus-visible{
+    border-color: #B49164 !important;
+    outline-color: #B49164 !important;
+  }
+
+  .file-upload.enabled  {
+
+    border-color: #F0F0F1 !important;
+}
+
+.file-upload {
+    border-width: 1.8px !important;
+
+    height: 70px ;
+}
+.file-upload.disabled {
+     border-style: dashed ;
+    border-color: #F0F0F1 !important;
+}
+
+
+.num-holder{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #B49164;
+  background-color:  #F6F2EE;;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body .uwy.userway_p3 .userway_buttons_wrapper {
+  bottom: 64px !important;
+  right: auto !important;
+  left: calc(100vw - 32px) !important;
+}
+
+html[dir='rtl']{
+    body .uwy.userway_p3 .userway_buttons_wrapper{
+    bottom: 64px !important;
+    right: calc(100vw - 32px) !important;
+    left: auto !important;
+
+    transform: translate(100%) !important;
+    }
+    .rotatedY {
+        transform: rotateY(180deg) !important;
+      }
+
+}
+
+// message alert sys
+.p-message .p-message-icon {
+    margin-inline-end: 0.5rem !important;
+}
+// button.p-message-close {
+//     display: none;
+// }
+
+
+
+.checkboxDiv {
+    padding: 0 !important;
+    label {
+        font-size: 16px;
+        font-weight: 500 !important;
+    }
+    &.col-md-4{
+        width: unset !important;
+    }
+  }

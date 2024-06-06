@@ -1,0 +1,55 @@
+//  prime tabs
+
+.p-tabview .p-tabview-nav {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 16px;
+    border: 0;
+  }
+  
+  .p-tabview .p-tabview-nav li {
+    padding-inline-end: 32px;
+    .p-tabview-nav-link {
+      background: transparent;
+      color: $label-color;
+      border: 0;
+      font-size: 18px;
+      padding-block: 8px 6px;
+      padding-inline: 0;
+      cursor: pointer;
+    }
+    // &:first-child{
+    //   .p-tabview-nav-link {
+    //     padding-inline-start: 0;
+    //   }
+    // }
+  }
+  
+  .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: transparent;
+    border-color: $Primary;
+    color: $Primary !important;
+    border-bottom: 2px solid;
+    padding-inline: 0;
+  
+    .p-tabview-title {
+      font-weight: 500 !important;
+    }
+  }
+  .p-tabview .p-tabview-panels {
+    padding: 0;
+    background: transparent;
+  }
+  .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus-visible {
+    box-shadow: unset;
+  }
+  .p-badge {
+    background: #b49164;
+  }
+  // prime tabs (ltr)
+  [dir="ltr"] {
+    .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+      font-size: 14px;
+    }
+  }
+  // end tabs style 

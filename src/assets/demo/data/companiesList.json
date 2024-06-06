@@ -1,0 +1,45 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"code": "f230fh0g3",
+			"name": "ahmadiCompany",
+			"description": "ahmadiCompanyForHousingService",
+      "image": "comp2.jpg",
+			"default": true,
+			"category": "Housing",
+			"quantity": 24,
+			"status": "Active",
+      "allowed": true,
+			"rating": 5
+		},
+
+    {
+			"id": "1001",
+			"code": "nvklal433",
+			"name": "alRahmanCompany",
+			"description": "alRahmanCompanyForLiftingService",
+      "image": "comp1.jpg",
+      "default": false,
+			"category": "Lifting",
+			"quantity": 61,
+			"status": "not-active",
+      "allowed": true,
+			"rating": 4
+		},
+		{
+			"id": "1002",
+			"code": "zz21cz3c1",
+			"name": "beyootCompany",
+			"description": "beyootCompanyForHousingService",
+			"image": "comp3.jpg",
+      "default": false,
+			"category": "Housing",
+			"quantity": 2,
+			"status": "not-approved",
+      "allowed": false,
+			"rating": 3
+		}
+
+	]
+}
