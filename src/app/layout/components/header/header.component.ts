@@ -1,23 +1,16 @@
-import { Component } from '@angular/core';
+import { NgIf, NgStyle } from '@angular/common';
+import { Component, InputSignal, input } from '@angular/core';
 import { MenuItem } from 'primeng/api';
-import { TabMenuModule } from 'primeng/tabmenu';
+import { MenubarModule } from 'primeng/menubar';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [TabMenuModule],
+  imports: [MenubarModule, NgIf, NgStyle],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  items: MenuItem[] | undefined;
+  items: InputSignal<MenuItem[]> = input.required();
 
-  ngOnInit() {
-      this.items = [
-          { label: 'Dashboard', icon: 'pi pi-home' },
-          { label: 'Transactions', icon: 'pi pi-chart-line' },
-          { label: 'Products', icon: 'pi pi-list' },
-          { label: 'Messages', icon: 'pi pi-inbox' }
-      ]
-  }
 }
